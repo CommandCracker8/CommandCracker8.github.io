@@ -6,7 +6,7 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': "June 4 2021 10:00:00 GMT+0000",
+			'date': null,
 			'format': null
 		};
 
@@ -18,21 +18,24 @@
 		//main countdown function
 		function countdown_proc() {
 			
-			// eventDate = Date.parse(settings['date']) / 1000;
 			eventDate = Date.parse(settings['date']) / 1000;
-			// currentDate = Math.floor($.now() / 1000);
-			currentDate = new Date().getTime();
+			currentDate = Math.floor($.now() / 1000);
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);
-				clearInterval(1000);
+				clearInterval(interval);
 			}
 			
-			var total = Date.parse('June 4 2021 10:00:00 GMT+0000') - Date.parse(new Date());
-			var seconds = Math.floor( (total/1000) % 60 );
-			var minutes = Math.floor( (total/1000/60) % 60 );
-			var hours = Math.floor( (total/(1000*60*60)) % 24 );
-			var days = Math.floor( total/(1000*60*60*24) );
+			seconds = eventDate - currentDate;
+			
+			days = Math.floor(seconds / (60 * 60 * 24)); //calculate the number of days
+			seconds -= days * 60 * 60 * 24; //update the seconds variable with no. of days removed
+			
+			hours = Math.floor(seconds / (60 * 60));
+			seconds -= hours * 60 * 60; //update the seconds variable with no. of hours removed
+			
+			minutes = Math.floor(seconds / 60);
+			seconds -= minutes * 60; //update the seconds variable with no. of minutes removed
 			
 			//conditional Ss
 			if (days == 1) { thisEl.find(".timeRefDays").text("day"); } else { thisEl.find(".timeRefDays").text("days"); }
@@ -40,7 +43,7 @@
 			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("minute"); } else { thisEl.find(".timeRefMinutes").text("minutes"); }
 			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("second"); } else { thisEl.find(".timeRefSeconds").text("seconds"); }
 			
-			// //logic for the two_digits ON setting
+			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
 				days = (String(days).length >= 2) ? days : "0" + days;
 				hours = (String(hours).length >= 2) ? hours : "0" + hours;
@@ -56,7 +59,7 @@
 				thisEl.find(".seconds").text(seconds);
 			} else { 
 				alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");
-				clearInterval(1000); 
+				clearInterval(interval); 
 			}
 		}
 		
