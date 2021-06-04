@@ -23,19 +23,16 @@
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);
-				clearInterval(interval);
+				clearInterval(1000);
 			}
 			
 			seconds = eventDate - currentDate;
 			
-			days = Math.floor(seconds / (60 * 60 * 24)); //calculate the number of days
-			seconds -= days * 60 * 60 * 24; //update the seconds variable with no. of days removed
-			
-			hours = Math.floor(seconds / (60 * 60));
-			seconds -= hours * 60 * 60; //update the seconds variable with no. of hours removed
-			
-			minutes = Math.floor(seconds / 60);
-			seconds -= minutes * 60; //update the seconds variable with no. of minutes removed
+			var total = Date.parse('June 4 2021 10:00:00 GMT+0100') - Date.parse(new Date());
+			var seconds = Math.floor( (total/1000) % 60 );
+			var minutes = Math.floor( (total/1000/60) % 60 );
+			var hours = Math.floor( (total/(1000*60*60)) % 24 );
+			var days = Math.floor( total/(1000*60*60*24) );
 			
 			//conditional Ss
 			if (days == 1) { thisEl.find(".timeRefDays").text("day"); } else { thisEl.find(".timeRefDays").text("days"); }
