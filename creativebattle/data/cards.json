@@ -1,0 +1,407 @@
+{
+    "Feral Berrill": {
+        "attributes": {
+            "speed": 2,
+            "strength": 4,
+            "intelligence": 2,
+            "charisma": 4,
+            "tech": 0
+        }
+    },
+    "Mr. Cosmos": {
+        "attributes": {
+            "speed": 2,
+            "strength": 1,
+            "intelligence": 3,
+            "charisma": 3,
+            "tech": 3
+        }
+    },
+    "Decap Man": {
+        "attributes": {
+            "speed": 3,
+            "strength": 5,
+            "intelligence": 1,
+            "charisma": 0,
+            "tech": 2
+        }
+    },
+    "Matt": {
+        "attributes": {
+            "speed": 1,
+            "strength": 1,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 5
+        }
+    },
+    "The Poke": {
+        "attributes": {
+            "speed": 4,
+            "strength": 4,
+            "intelligence": 1,
+            "charisma": 2,
+            "tech": 1
+        }
+    },
+    "The Pick": {
+        "attributes": {
+            "speed": 3,
+            "strength": 3,
+            "intelligence": 3,
+            "charisma": 2,
+            "tech": 1
+        }
+    },
+    "Robot Toad": {
+        "attributes": {
+            "speed": 0,
+            "strength": 5,
+            "intelligence": 2,
+            "charisma": 0,
+            "tech": 5
+        }
+    },
+    "Slard": {
+        "attributes": {
+            "speed": 1,
+            "strength": 2,
+            "intelligence": 3,
+            "charisma": 5,
+            "tech": 1
+        }
+    },
+    "The Crimson Slime": {
+        "attributes": {
+            "speed": 2,
+            "strength": 4,
+            "intelligence": 2,
+            "charisma": 1,
+            "tech": 3
+        }
+    },
+    "Nobody": {
+        "attributes": {
+            "speed": 2,
+            "strength": 4,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 1
+        }
+    },
+    "Dr. Chippy": {
+        "attributes": {
+            "speed": 2,
+            "strength": 2,
+            "intelligence": 2,
+            "charisma": 2,
+            "tech": 2
+        }
+    },
+    "Goatee Cube": {
+        "attributes": {
+            "speed": 5,
+            "strength": 1,
+            "intelligence": 0,
+            "charisma": 5,
+            "tech": 1
+        }
+    },
+    "Evil Gum Blob": {
+        "attributes": {
+            "speed": 0,
+            "strength": 5,
+            "intelligence": 4,
+            "charisma": 3,
+            "tech": 0
+        }
+    },
+    "Bockle": {
+        "attributes": {
+            "speed": 2,
+            "strength": 4,
+            "intelligence": 0,
+            "charisma": 3,
+            "tech": 3
+        }
+    },
+    "Bob the Bee": {
+        "attributes": {
+            "speed": 3,
+            "strength": 3,
+            "intelligence": 2,
+            "charisma": 3,
+            "tech": 1
+        }
+    },
+    "Banana Gun": {
+        "attributes": {
+            "speed": 5,
+            "strength": 2,
+            "intelligence": 3,
+            "charisma": 1,
+            "tech": 1
+        }
+    },
+    "The Borg Cube": {
+        "attributes": {
+            "speed": 0,
+            "strength": 2,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 5
+        }
+    },
+    "Demon Chicken": {
+        "attributes": {
+            "speed": 2,
+            "strength": 5,
+            "intelligence": 2,
+            "charisma": 2,
+            "tech": 1
+        }
+    },
+    "Doge Coin Enterprises": {
+        "attributes": {
+            "speed": 1,
+            "strength": 5,
+            "intelligence": 1,
+            "charisma": 5,
+            "tech": 0
+        }
+    },
+    "Sir Goose": {
+        "attributes": {
+            "speed": 4,
+            "strength": 3,
+            "intelligence": 3,
+            "charisma": 2,
+            "tech": 0
+        }
+    },
+    "Dog with Sunglasses": {
+        "attributes": {
+            "speed": 3,
+            "strength": 2,
+            "intelligence": 0,
+            "charisma": 5,
+            "tech": 2
+        }
+    },
+    "Duracl": {
+        "attributes": {
+            "speed": 5,
+            "strength": 0,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 2
+        }
+    },
+    "The Blob": {
+        "attributes": {
+            "speed": 2,
+            "strength": 2,
+            "intelligence": 4,
+            "charisma": 4,
+            "tech": 0
+        }
+    },
+    "The Lord of Green": {
+        "attributes": {
+            "speed": 1,
+            "strength": 3,
+            "intelligence": 4,
+            "charisma": 4,
+            "tech": 0
+        }
+    },
+    "The Triangle": {
+        "attributes": {
+            "speed": 1,
+            "strength": 5,
+            "intelligence": 1,
+            "charisma": 1,
+            "tech": 5
+        }
+    },
+    "Jonathan": {
+        "attributes": {
+            "speed": 5,
+            "strength": 5,
+            "intelligence": 0,
+            "charisma": 2,
+            "tech": 0
+        }
+    },
+    "ELOTRADON": {
+        "attributes": {
+            "speed": 4,
+            "strength": 1,
+            "intelligence": 5,
+            "charisma": 1,
+            "tech": 1
+        }
+    },
+    "The Destructinator": {
+        "attributes": {
+            "speed": 2,
+            "strength": 5,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 0
+        }
+    },
+    "Harold the Postman": {
+        "attributes": {
+            "speed": 2,
+            "strength": 2,
+            "intelligence": 3,
+            "charisma": 3,
+            "tech": 2
+        }
+    },
+    "Rooby & Master Cat": {
+        "attributes": {
+            "speed": 3,
+            "strength": 5,
+            "intelligence": 2,
+            "charisma": 2,
+            "tech": 0
+        }
+    },
+    "Fudge the Hamster": {
+        "attributes": {
+            "speed": 3,
+            "strength": 2,
+            "intelligence": 4,
+            "charisma": 1,
+            "tech": 2
+        }
+    },
+    "Caffeine Man": {
+        "attributes": {
+            "speed": 5,
+            "strength": 0,
+            "intelligence": 2,
+            "charisma": 5,
+            "tech": 0
+        }
+    },
+    "tiky": {
+        "attributes": {
+            "speed": 2,
+            "strength": 5,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 0
+        }
+    },
+    "Pickle": {
+        "attributes": {
+            "speed": 2,
+            "strength": 3,
+            "intelligence": 5,
+            "charisma": 0,
+            "tech": 2
+        }
+    },
+    "The Sqaure": {
+        "attributes": {
+            "speed": 2,
+            "strength": 4,
+            "intelligence": 3,
+            "charisma": 2,
+            "tech": 1
+        }
+    },
+    "The Nathanator": {
+        "attributes": {
+            "speed": 4,
+            "strength": 0,
+            "intelligence": 3,
+            "charisma": 0,
+            "tech": 5
+        }
+    },
+    "Anubis": {
+        "attributes": {
+            "speed": 3,
+            "strength": 1,
+            "intelligence": 5,
+            "charisma": 3,
+            "tech": 0
+        }
+    },
+    "Sweater": {
+        "attributes": {
+            "speed": 0,
+            "strength": 2,
+            "intelligence": 0,
+            "charisma": 5,
+            "tech": 5
+        }
+    },
+    "Mr. Cheese": {
+        "attributes": {
+            "speed": 3,
+            "strength": 5,
+            "intelligence": 1,
+            "charisma": 1,
+            "tech": 2
+        }
+    },
+    "Obnoxious Orange": {
+        "attributes": {
+            "speed": 5,
+            "strength": 3,
+            "intelligence": 1,
+            "charisma": 0,
+            "tech": 3
+        }
+    },
+    "The Shotgun Hat": {
+        "attributes": {
+            "speed": 3,
+            "strength": 4,
+            "intelligence": 2,
+            "charisma": 3,
+            "tech": 0
+        }
+    },
+    "The Phantom": {
+        "attributes": {
+            "speed": 5,
+            "strength": 3,
+            "intelligence": 2,
+            "charisma": 2,
+            "tech": 0
+        }
+    },
+    "The Beexcutioner": {
+        "attributes": {
+            "speed": 5,
+            "strength": 5,
+            "intelligence": 2,
+            "charisma": 0,
+            "tech": 0
+        }
+    },
+    "Mr. Trashy Boy": {
+        "attributes": {
+            "speed": 0,
+            "strength": 5,
+            "intelligence": 0,
+            "charisma": 2,
+            "tech": 5
+        }
+    },
+    "No Name": {
+        "attributes": {
+            "speed": 2,
+            "strength": 5,
+            "intelligence": 4,
+            "charisma": 1,
+            "tech": 0
+        }
+    }
+}
