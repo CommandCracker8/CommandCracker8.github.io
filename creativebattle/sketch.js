@@ -60,7 +60,8 @@ function preload() {
 }
 
 function setup() {
-    canv = createCanvas(windowWidth, windowHeight);
+    canv = createCanvas(width, height);
+    canv.parent('canvasDiv')
 
     bgCol = color(51)
 
